@@ -1,0 +1,270 @@
+body {
+  background-color: lightslategrey;
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+  height: 40px;
+
+}
+
+header h1 {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 900;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 40px;
+  background-color: rgba(197, 228, 145, 0.788);
+}
+
+.nav-top {
+  background-color: darkgray;
+  height: 30px;
+  position: sticky;
+  top: 0;
+}
+
+.nav-links {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.nav-links li {
+/*   display: inline-block; */
+  float: left;
+  padding: 0 16px;
+  margin-top: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.nav-links li a {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+}
+
+.nav-links li a:hover {
+  color: bisque;
+}
+
+.articles {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Ubuntu";
+  font-size: 1em;
+  line-height: 1.5em;
+  padding: 0 1em;
+}
+
+.articles h3 {
+  font-weight: 300;
+  padding-top: 10px;
+  font-size: 1.7em;
+  font-style: italic;
+  margin-bottom: 7px;
+}
+
+.article-container h2 {
+  font-size: 1.2em;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+}
+
+.articlepics {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.footer {
+  margin: 0 auto;
+  padding: 1em 1em;
+  margin-bottom: 2em;
+}
+
+footer {
+  padding: 1em 1em;
+  text-align: center;
+}
+
+.footer caption {
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-bottom: 1em;
+  font-style: italic;
+}
+
+.footer th {
+  font-weight: bold;
+}
+
+.footer .row1 td,
+.footer .row2 td,
+.footer .row3 td {
+  padding: 0 2em;
+  text-align: center;
+}
+
+.copyright {
+  font-style: italic;
+}
+
+.video {
+  display: block;
+  margin: 0 auto;
+  border: 0;
+  margin-top: 40px;
+}
+
+.friends-section h2 {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #111;
+  margin-top: 1em;
+}
+
+.myfriends {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+
+}
+
+.mydog {
+  list-style: circle;
+  font-size: 1em;
+  text-align: center;
+  font-style: italic;
+}
+
+.mydog li {
+  margin: 1em 0;
+}
+
+.contactinfo {
+  text-align: center;
+  margin: 1em auto;
+}
+
+.contactinfo th {
+  font-weight: bold;
+  line-height: 1.5em;
+  padding-right: 1em;
+}
+
+.parrotabout {
+  width: 30%;
+  display: block;
+  margin: 2em auto 1em;
+}
+
+footer .copyright.contactme {
+  position: relative;
+  left: 0px;
+}
+
+.contact {
+  text-align: center;
+  line-height: 1.3em;
+}
+
+.contact h2 {
+  margin-bottom: 0.5em;
+}
+
+@media only screen and (min-width:768px) {
+  /* desktop version */
+
+  header {
+    position: sticky;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("img/Scarlet-macaw-at-Costa-Rican-jungles-By-ramesh-aithal--1140x450.jpg");
+    background-size: cover;
+    height: 10em;
+    text-align: left;
+    padding-top: 2em;
+  }
+
+  header h1 {
+    background-color: transparent;
+    font-size: 3em;
+    margin-top: 1em;
+  }
+
+  .nav-top {
+    display: flex;
+    background-color: lightblue;
+    margin: 0 auto;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 0;
+
+  }
+
+  .articles h2,
+  .articles h3 {
+    margin: 20px 0;
+    font-size: 1.7em;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+
+  .nav-top li {
+    text-align: right;
+    display: inline;
+    margin-right: 100px;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+
+  .nav-top li:first-child {
+    margin-left: 0px;
+  }
+
+  .nav-top li:last-child {
+    margin-right: 0px;
+  }
+
+  .col1, .col2 {
+    width: 40%;
+    display: inline-block;
+    margin-right: 1em;
+    margin-top: 2em;
+  }
+
+.articlepics {
+  object-fit: scale-down;
+  height: auto;
+}
+
+.footer,
+.contactinfo{
+  float: left;
+  width: 50%;
+}
+
+.contactinfo {
+margin-top: 2em;
+}
+
+.copyright {
+  clear: left;
+}
+
+}
