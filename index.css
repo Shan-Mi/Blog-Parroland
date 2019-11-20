@@ -34,7 +34,6 @@ header h1 {
 }
 
 .nav-links li {
-/*   display: inline-block; */
   float: left;
   padding: 0 16px;
   margin-top: 5px;
@@ -126,6 +125,9 @@ footer {
   margin: 0 auto;
   border: 0;
   margin-top: 40px;
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
 }
 
 .friends-section h2 {
@@ -241,30 +243,31 @@ footer .copyright.contactme {
     margin-right: 0px;
   }
 
-  .col1, .col2 {
+  .col1,
+  .col2 {
     width: 40%;
     display: inline-block;
     margin-right: 1em;
     margin-top: 2em;
   }
 
-.articlepics {
-  object-fit: scale-down;
-  height: auto;
-}
+  .articlepics {
+    object-fit: scale-down;
+    height: auto;
+  }
 
-.footer,
-.contactinfo{
-  float: left;
-  width: 50%;
-}
+  .footer,
+  .contactinfo {
+    float: left;
+    width: 50%;
+  }
 
-.contactinfo {
-margin-top: 2em;
-}
+  .contactinfo {
+    margin-top: 2em;
+  }
 
-.copyright {
-  clear: left;
-}
+  .copyright {
+    clear: left;
+  }
 
 }
